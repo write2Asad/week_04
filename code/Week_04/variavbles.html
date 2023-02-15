@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic JavaScript</title>
+    </head>
+
+    <body>
+        <button type="button" onclick="checkStudent()">Check Student</button>
+
+        <p id="displayStudentInfo">Student Information</p>
+        <p id="greet"></p>
+        <script>
+            let name = "Student3";
+
+            function checkStudent(){
+
+                if(name === "Student1"){
+                    document.getElementById("displayStudentInfo").innerHTML 
+                    = "the student name is correct";
+                // console.log("the student name is correct");
+
+            } else {
+                document.getElementById("displayStudentInfo").innerHTML 
+                    = "The student name is not correct";
+                // console.log("The student name is not correct");
+            };
+        }
+        const day = new Data().getHours();
+        
+        const hour = day.getHours;
+
+        let greeting;
+
+        function greeting() {
+            if(hour > 18){
+                greeting = "Good Day";
+            }
+        }
+        document.getElementById("greet").innerHTML 
+                    = greeting;
+
+
+        
+
+
+           
+        </script>
+    </body>
+</html>

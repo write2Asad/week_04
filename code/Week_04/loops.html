@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic JavaScript</title>
+    </head>
+
+    <body>
+        <p id="studentName"></p>
+
+        <p id="personName"></p>
+
+        <p id="studentName1"></p>
+   
+        <script>
+            
+            const students = ["Asad", "Usama", "Alex", "Tim"];
+            let newstudent= "";
+
+            for (let x of students) {
+                newstudent += x + "<br>";
+            }
+                console.log(newstudent);
+            // document.getElementById("studentName1").innerHTML = newstudent;
+
+
+            let text = "";
+            for (let i = 0; i < students.length; i++){
+                text += students[i] + "<br>";
+            }
+            document.getElementById("studentName").innerHTML = text;
+
+// 
+            const person = {
+                firstName: "Alex",
+                LastName: "M",
+                age: "23"
+            }
+
+            let val = "";
+
+            for (let x in person) {
+                val += person[x] + "<br>"
+            }
+
+            document.getElementById("personName").innerHTML = val;
+
+        </script>
+    </body>
+</html>

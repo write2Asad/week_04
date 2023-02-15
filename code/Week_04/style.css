@@ -1,0 +1,38 @@
+div{
+    
+
+    text-transform: uppercase;
+}
+
+#div1{
+    width: 80px;
+    height: 80px;
+    display: none;
+    background-color: coral;
+}
+
+#div2{
+    width: 80px;
+    height: 80px;
+    display: none;
+    background-color:crimson;
+}
+
+#div3 {
+    width: 80px;
+    height: 80px;
+    display: none;
+    background-color:darkcyan;
+}
+
+#panel, #flip {
+    background-color: burlywood;
+    padding: 5px;
+    text-align: center;
+    border: solid 1px #c3c3c3;
+}
+
+#panel{
+    padding: 50px;
+    display: none;
+}
